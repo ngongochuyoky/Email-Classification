@@ -1,5 +1,11 @@
 # Email-Classification
 ## Introduction  
+Classifying an email as spam or non-spam (Ham mail) the classification effect must be positive, and minimizing the error of classifying Ham mail into Spam mail.
+
+- Spam classification is a two-class text classification problem, two text classes are Ham (valid mail) and Spam (spam).
+- The initial sample document set is the messages that have been classified into spam and valid messages, the text to be classified is the received emails.
+- We can rely on certain characteristics or attributes of an email to increase the efficiency of classification. The characteristics of an email such as: subject, sending address, message body, message with attachments or not... The more you take advantage of such information, the more accurate the classification ability, and the analysis results. type is also highly dependent on the size of the training sample set.
+
  Classification Algorithms:
  - Random Forest Classifier
  - Multinomial Naïve Bayes
